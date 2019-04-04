@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<h1><strong>1.0 </strong><strong>Background<a name="_Toc535371677"></a></strong></h1>
-<p>The fundamental of internal combustion engines shows that the engine power is delivered by the compression of fuel-mixture and combustion in the cylinder. Since air intake is essential in enhancing engine performance and fuel economy, we will look at how the tuning of intake manifold will contribute to higher engine performance.</p>
-<h1><strong>2.0 Manifold Overview</strong></h1>
-<p>An intake manifold is defined as a part of an engine that supplies the fuel/air mixture to the cylinders. As shown in Figure 1, the ambient air enters the air intake and the amount of the air entering manifold is mainly controlled by throttle body. The upstream part of the manifold before air gets distributed is called the manifold plenum and the individual ducts downstream are called manifold runners. Differences in Plenum and runner design can bring influences on engine performance. For instance, A high-performance manifold typically has large plenum and oversized runners to allow large mass flow of air into the cylinder. Additionally, the minor loss of air flow ca be reduced by having fewer bends and matching the size of runner inlet and cylinder head.</p>
+<h1 style="text-align: center;"><strong>Manifold Tuning </strong></h1>
+<h1 style="text-align: center;"><strong>&ndash; Theory and Practice</strong></h1>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">EML 5422</p>
+<p style="text-align: center;">Section 1</p>
+<p style="text-align: center;">Ce Chen</p>
+<h3><a name="_Toc5205014"></a><strong>1.0 Background</strong></h3>
+<p>The brake torque of an engine usually drops at high speed due to challenges in getting sufficient air into the cylinder. Since intake manifold is the last step before the air-fuel mixture enters the cylinder, we would like to conduct a self-guided study to determine how the engine performance is improved by manifold tuning.</p>
+<h3><a name="_Toc5205015"></a><strong>2.0 Manifold Overview</strong></h3>
+<p>An intake manifold is defined as a part of an engine that supplies the fuel/air mixture to the cylinders. [1]As shown in Figure 1, the ambient air enters the air intake, and the throttle body mainly controls the amount of the air entering manifold. The upstream part of the manifold before the air gets distributed is called the manifold plenum, and the individual ducts downstream are called manifold runners. Differences in Plenum and runner design can bring influences on engine performance. For instance, A high-performance manifold typically has large plenum and oversized runners to allow a large mass flow of air into the cylinder. Additionally, the minor loss of air flow can be reduced by having fewer bends and matching the size of runner inlet and cylinder head.</p>
+<p><img src="https://adminmyfsu-my.sharepoint.com/:i:/g/personal/cc17f_my_fsu_edu/ERTgPlGU8HhEhm8JAWPVzQIBPhTY5QJT6KLAUOaIpjE52g?e=PVFOWl" alt="intake manifold" /></p>
 <p>Figure 1 Intake Manifold Illustration</p>
-<h1><a name="_Toc535371678"></a><strong>3.0 </strong><strong>Manifold and Volumetric Efficiency</strong></h1>
-<p>One of the purposes of manifold tuning is to improve the volumetric efficiency. As shown on equation1,</p>
+<h3><strong>3.0 Organ Pipe and Volumetric Efficiency</strong></h3>
+<p>One of the purposes of manifold tuning is to improve volumetric efficiency. As shown on equation 1,</p>
 <table>
 <tbody>
 <tr>
@@ -18,6 +25,149 @@
 </tbody>
 </table>
 <p>&nbsp;</p>
-<p>the volumetric efficiency equals to the actual air inducted over the theoretical amount of the air.&nbsp; Therefore, for the same amount of theoretical air, the more air enters the cylinder, the higher volumetric efficiency. To increase the volumetric efficiency, it is necessary to take pressure wave phenomena into consideration. Figure 2 shows the generation of expansion and compression pressure waves generated due to the open and close of intake valve. Shortly after the inlet valve of cylinder opens, the pressure in the cylinder drops and an expansion (associate with decrese in pressure) wave starts traveling towards the atmosphere end of manifold. The traveling speed of the wave is a-v, where a is the isentropic speed of sound while v is the fluid velocity in the manifold. When the wave reaches the open end of the pipe, the expansion wave is refelected as the a compression wave with a the speed of a+v. If the manifold is well designed, the inlet valve will be closing when the compression wave arrives and the compression wave will result in an increase in pressure. The increase of pressure will help to bring more air into the cylinder and enhance the volumetric efficiency.</p>
+<p>The volumetric efficiency is the ratio of actual air inducted to the theoretical amount of the air.&nbsp; Therefore, for the same amount of theoretical air, the more air enters the cylinder, the higher volumetric efficiency. To increase volumetric efficiency, it is necessary to consider pressure wave phenomena. Figure 2 shows the generation of expansion and compression pressure waves generated due to the open and close of the intake valve. Shortly after the inlet valve of cylinder opens, the pressure in the cylinder drops and an expansion (associated with a decrease in pressure) wave starts traveling towards the atmosphere end of the manifold. The traveling speed of the wave is a-v, where a is the isentropic speed of sound while v is the fluid velocity in the manifold. When the wave reaches the open end of the pipe, the expansion wave is reflected as a compression wave with a speed of a+v. If the manifold is well designed, the inlet valve will be closing when the compression wave arrives, and the compression wave will increase pressure. [2]</p>
+<p>Figure 2 Sketch of waves in the inlet manifold of a single cylinder engine</p>
+<p>The increase of pressure will help to bring more air into the cylinder and enhance the volumetric efficiency. One of the ways to adjust pressure wave timing is to adjust the pipe length L. The total transit time in the pipe is</p>
+<table>
+<tbody>
+<tr>
+<td width="474">&nbsp;</td>
+<td width="102">
+<p>(2)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Suppose &kappa;/2N is the open time of the valve, with &kappa; as the ratio of the open angle to &pi; and N as engine speed. Equation (2) can be organized as the form below</p>
+<table>
+<tbody>
+<tr>
+<td width="474">&nbsp;</td>
+<td width="102">
+<p>(3)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Equation 3 shows that for lower engine speed N, the pipe length L is longer. Figure 3 indicates the effect of intake pipe length on volumetric efficiency at various engine speed. For fixed pipe length, the tuning is only effective at a single speed, and the effect will decrease if the engine speed is below or above that speed.</p>
+<p>Figure 3 Effect of intake pipe length on volumetric efficiency (D Type Jaguar engine)&nbsp;[3]</p>
+<h3><strong>4.0 Variable-Length Intake Manifold</strong></h3>
+<p>As covered in the previous section that longer runners are preferred for low engine speed and shorter runners are preferred for high engine speed, some engines use variable-length intake manifold to allow high volumetric efficiency at both high and low engine speed. Figure 4 displays a folded manifold with a valve. At low engine speed, the valve is switched to the position that intake air is guided through the longer pipe; At high engine speed, the valve is switched to another position that guides intake air through the shorter pipe.</p>
+<p>Figure 4 Manifold with valve</p>
+<h3><strong>5.0 Helmholtz Resonators</strong><strong>&nbsp;&nbsp;&nbsp; </strong></h3>
+<p>Another way to adjust the tuning of the pressure wave is to attach Helmholtz resonators to manifold runners. As shown in Figure 5, a Helmholtz Resonator is a container of gas with a narrow neck. When air enters the resonator, the gas column in the pipe is pushed down by a distance &Delta;x (see Figure 6).</p>
+<p>Figure 5 Helmholtz Resonator used in automobile</p>
+<p>Figure 6 Schematic of simple Helmholtz resonator</p>
+<p>&nbsp;</p>
+<p>This displacement causes a change of mass, which can be rewritten as</p>
+<table>
+<tbody>
+<tr>
+<td width="474">&nbsp;</td>
+<td width="102">
+<p>(4)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Additionally, the speed of sound &nbsp;can be rewritten as</p>
+<table>
+<tbody>
+<tr>
+<td width="474">&nbsp;</td>
+<td width="102">
+<p>(5)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Therefore, the pressure force can be expressed as</p>
+<table>
+<tbody>
+<tr>
+<td width="474">&nbsp;</td>
+<td width="102">
+<p>(6)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Plug &nbsp;into Hook&rsquo;s law</p>
+<table>
+<tbody>
+<tr>
+<td width="474">
+<p><em>&nbsp;</em></p>
+</td>
+<td width="102">
+<p>(7)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;Then the angular velocity is</p>
+<table>
+<tbody>
+<tr>
+<td width="474">&nbsp;</td>
+<td width="102">
+<p>(8)</p>
+</td>
+</tr>
+<tr>
+<td width="474">
+<p>Eventually, that gives a resonant frequency of</p>
+</td>
+<td width="102">
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td width="474">
+<p>&nbsp;</p>
+</td>
+<td width="102">
+<p>(7)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Given <strong><em>a</em></strong> (isentropic speed of sound), <strong><em>A</em></strong> (throttle area), <strong><em>V</em></strong> (volume per cylinder) and <strong><em>L</em></strong> (manifold length), the resonant frequency can be determined for finding the right Helmholtz resonator.</p>
+<h3><strong>6.0 Conclusion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></h3>
+<p>The manifold tuning advances engine performance by increasing the air intake into the cylinder and the higher air intake enhance the volumetric efficiency of an engine. The popular approaches for manifold tuning include using organ pipes, variable length intake manifold, and Helmholtz resonator.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3><a name="_Toc5205019"></a><strong>7.0 References</strong><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></h3>
+<p>&nbsp;</p>
+<table width="100%">
+<tbody>
+<tr>
+<td width="1%">
+<p>[1]</p>
+</td>
+<td>
+<p>W. contributors, "Inlet manifold," in <em>Wikipedia</em>, 2019.</p>
+</td>
+</tr>
+<tr>
+<td width="1%">
+<p>[2]</p>
+</td>
+<td>
+<p>J. L. Lumley, Engines An Introduction, New York: Cambridege University Press, 1999.</p>
+</td>
+</tr>
+<tr>
+<td width="1%">
+<p>[3]</p>
+</td>
+<td>
+<p>C. Campbell, The Sports Car: Its design and performance, Springer Science &amp; Business Media, 2012.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
 <p><audio style="display: none;" controls="controls"></audio></p>
 </html>
